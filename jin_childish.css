@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+img.menu {
+	resize:vertical
+}
+
+li {
+	align-content: center
+	
+}
+footer {
+	align-content:flex-end
+}
