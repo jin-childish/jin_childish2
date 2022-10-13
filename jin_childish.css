@@ -3,7 +3,9 @@
 
 
 img.menu {
-	resize:vertical
+	resize:vertical;
+	
+	
 }
 
 li {
@@ -11,8 +13,12 @@ li {
 	
 }
 footer {
-	align-content:flex-end
+	text-align:left;
 }
 a {
-	color:#D16893
+	color:#D16893;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
 }
