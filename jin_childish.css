@@ -24,8 +24,14 @@ h1{
 	margin: 0;
 	
 }
-.nav{
+.nav1{
 	border-right: 1px #D16893 solid;
+}
+@media(min-width:400px)
+{
+	.NAV{
+		display:none;
+	}
 }
 ol{
 	list-style: none;
@@ -60,4 +66,36 @@ ul {
 	list-style: none;
 	padding:10px;
 	
+}
+@media(max-width : 400px )
+{
+	#GRID{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.NAV{
+		display: grid;
+		grid-template-columns: 43px 49px 133px;
+		border-bottom: 1px #D16893 solid;
+		margin-left: 10px;
+	}
+	.NAV1-1{
+		width: 43px;
+		margin-top: 10px;
+	}
+	.NAV1-2{
+		width: 39px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.NAV1-3{
+		width: 123px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.VIDEO2{
+		margin-left: 0px;
+	}
 }
