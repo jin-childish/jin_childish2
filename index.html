@@ -15,8 +15,30 @@
 <body>
 	<header>
 	<a href="index.html" title="FLOWER">
-		<h1><strong>FLOWER</strong></h1>
+		<h1><strong>FLOWER</strong></h1>	
 	</a>
+		<section class="DAY_OR_NIGHT">
+		<label id="DAY">DAY
+		<input type="radio" value="DAY" name="DAY OR NIGHT" onClick="
+					document.querySelector('body').style.backgroundColor = 'white'
+					document.querySelector('#DAY').style.color = 'black';
+					document.querySelector('#NIGHT').style.color = 'black';
+					document.querySelector('article').style.color = 'black';
+					">
+		</label>
+		<label id="NIGHT">NIGHT
+		<input type="radio" value="NIGHT" name="DAY OR NIGHT" onClick="
+					document.querySelector('body').style.backgroundColor = 'black';
+					document.querySelector('#DAY').style.color = 'white';
+					document.querySelector('#NIGHT').style.color = 'white';
+					document.querySelector('article').style.color = 'white';				 
+					">
+		</label>
+		</section>
+		<label class="jin_childish">@jin_childish
+		<input type="checkbox" onClick="alert('hi~~~~~~~~~~~~~~~~~~!!')" value="@jin_childish">
+		</label>
+		
 	</header>
 	<div id="GRID">
 	<div class="nav1">
@@ -24,12 +46,12 @@
 		  <ol>
 			<li class="nav1-1">
 				<a href="GARDEN.html" target="_blank" title="GARDEN" class="GARDEN">
-					<img src="1.jpg" alt="GARDEN" width="68">
+					<img src="images_jin_childish/1.jpg" alt="GARDEN" width="68">
 				</a>
 			</li>
 			<li class="nav1-1">
 				<a href="PLANTING.html" target="_blank" title="PLANTING" class="PLANTING">
-					<img src="6.jpg" alt="PLANTING" width="68">
+					<img src="images_jin_childish/6.jpg" alt="PLANTING" width="68">
 				</a>
 			</li>
 			<li class="nav1-1">	
@@ -46,12 +68,12 @@
 		  
 			<div class="NAV1-1">
 				<a href="GARDEN.html" target="_blank" title="GARDEN" class="GARDEN">
-					<img src="1.jpg" alt="GARDEN" height="59">
+					<img src="images_jin_childish/1.jpg" alt="GARDEN" height="59">
 				</a>
 			</div>
 			<div class="NAV1-2">
 				<a href="PLANTING.html" target="_blank" title="PLANTING" class="PLANTING">
-					<img src="6.jpg" alt="PLANTING" height="59">
+					<img src="images_jin_childish/6.jpg" alt="PLANTING" height="59">
 				</a>
 			</div>
 			<div class="NAV1-3">	

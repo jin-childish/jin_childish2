@@ -5,10 +5,28 @@ h1{
 	border-bottom: 1px #D16893 solid;
 	
 }
+header{
+	position: relative;
+}
+.DAY_OR_NIGHT{
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+.jin_childish{
+	text-decoration: none;
+	position:fixed;
+	border-bottom: none;
+	right: 5px;
+	bottom: 4px;
+	color: black;
+	font-size: 1em;
+}
 #GRID{
 	display:grid;
 	grid-template-columns: 88px 282px 282px;
 	border-bottom: 1px #D16893 solid;
+	position:static;
 }
 button{
 	margin: 0px;
@@ -94,6 +112,7 @@ ul {
 		width: 123px;
 		margin-top: 10px;
 		margin-left: 10px;
+		padding-bottom: 10px;
 	}
 	.VIDEO2{
 		margin-left: 0px;
