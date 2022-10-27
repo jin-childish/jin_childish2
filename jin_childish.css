@@ -12,7 +12,7 @@ header{
 
 .DAY_OR_NIGHT{
 	position: absolute;
-	bottom: 0px;
+	bottom: 8.5px;
 	right: 5px;
 }
 .jin_childish{
@@ -26,12 +26,21 @@ header{
 }
 #GRID{
 	display:grid;
-	grid-template-columns: 88px 282px 282px;
+	grid-template-columns: 88px 296px 296px 260px;
 	border-bottom: 1px #D16893 solid;
 	position:static;
 }
-button{
+.SEND_FLOWERS_TO_DB1{
 	margin: 0px;
+	border: 0px;
+	height: 87px;
+}
+.SEND_FLOWERS_TO_DB2{
+	margin: 0px;
+	border: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 59px;
 }
 img.menu {
 	resize:vertical;
@@ -46,7 +55,10 @@ h1{
 }
 .nav1{
 	border-right: 1px #D16893 solid;
+	border-left: 1px #D16893 solid;
 }
+
+
 @media(min-width:700px)
 {
 	.NAV{
@@ -67,12 +79,18 @@ li {
 }
 .VIDEO1{
 	padding: 10px;
+	padding-right: 0px;
 	width: 286px;
 }
 .VIDEO2{
 	padding: 10px;
+	padding-right: 0px;
 	width: 286px;
-	margin-left: 10px;
+}
+.CROSS{
+	padding: 10px;
+	height: 290px;
+	width: 240px;
 }
 footer {
 	
