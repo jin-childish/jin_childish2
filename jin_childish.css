@@ -26,7 +26,7 @@ header{
 }
 #GRID{
 	display:grid;
-	grid-template-columns: 88px 296px 296px 260px;
+	grid-template-columns: 88px 296px 296px 250px 310px;
 	border-bottom: 1px #D16893 solid;
 	position:static;
 }
@@ -81,16 +81,35 @@ li {
 	padding: 10px;
 	padding-right: 0px;
 	width: 286px;
+	height: 290px;
 }
 .VIDEO2{
 	padding: 10px;
 	padding-right: 0px;
 	width: 286px;
+	height: 290px;
 }
 .CROSS{
 	padding: 10px;
+	padding-right: 0px;
 	height: 290px;
 	width: 240px;
+}
+.CROSS_TO_SPACE{
+	padding: 10px;
+	width: 290px;
+	height: 290px;
+	display: grid;
+	grid-template-rows: 145px 145px;
+}
+.TOP{
+	display: grid;
+	grid-template-columns: 145px 145px;
+	
+}
+.BOTTOM{
+	display: grid;
+	grid-template-columns: 145px 145px;
 }
 footer {
 	

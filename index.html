@@ -15,12 +15,13 @@
 
 <body>
 <script>
-	const visitors = ["jin_childish","광진"];
+
 </script>
 	<header>
-	<a href="index.html" title="FLOWER" class="Home" target="_self">
-		<h1><strong>FLOWER</strong></h1>	
-	</a>
+	
+		<a href="index.html" title="/flou(ə)r/the seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels) that are typically surrounded by a brightly colored corolla (petals) and a green calyx (sepals)." class="Home" target="_self">
+			<h1><strong>FLOWER</strong></h1>	
+		</a>
 		<section class="DAY_OR_NIGHT">
 		<input id="NIGHT" type="button" value="NIGHT.ver" onClick="
 			const x = document.getElementById('NIGHT').value;
@@ -45,12 +46,12 @@
 		  <ol>
 			<li class="nav1-1">
 				<a href="GARDEN.html" target="_blank" title="GARDEN" class="GARDEN">
-					<img src="1.jpg" alt="GARDEN" width="68">
+					<img src="images_jin_childish/1.jpg" alt="GARDEN" width="68px">
 				</a>
 			</li>
 			<li class="nav1-1">
 				<a href="PLANTING.html" target="_blank" title="PLANTING" class="PLANTING">
-					<img src="6.jpg" alt="PLANTING" width="68">
+					<img src="images_jin_childish/6.jpg" alt="PLANTING" width="68px">
 				</a>
 			</li>
 			<li class="nav1-1">	
@@ -67,12 +68,12 @@
 		  
 			<div class="NAV1-1">
 				<a href="GARDEN.html" target="_blank" title="GARDEN" class="GARDEN">
-					<img src="1.jpg" alt="GARDEN" height="59">
+					<img src="images_jin_childish/1.jpg" alt="GARDEN" height="59px">
 				</a>
 			</div>
 			<div class="NAV1-2">
 				<a href="PLANTING.html" target="_blank" title="PLANTING" class="PLANTING">
-					<img src="6.jpg" alt="PLANTING" height="59">
+					<img src="images_jin_childish/6.jpg" alt="PLANTING" height="59px">
 				</a>
 			</div>
 			<div class="NAV1-3">	
@@ -85,25 +86,53 @@
 		  
 		</nav>
 	<div class="VIDEO1">
-		<iframe height="290" width="286" src="https://www.youtube.com/embed/0ZoSYsNADtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe height="290px" width="286px" src="https://www.youtube.com/embed/0ZoSYsNADtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div class="VIDEO2">
-		<iframe height="290" width="286" src="https://www.youtube.com/embed/0ZoSYsNADtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe height="290px" width="286px" src="https://www.youtube.com/embed/0ZoSYsNADtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div class="CROSS">
-		<img src="27-2.jpg" height="290" width="240" alt="CROSS" usemap="#CROSS">
+		<img src="images_jin_childish/27-2.jpg" height="290px" width="240px" alt="CROSS" usemap="#CROSS" id="CROSS">
 		<map name="CROSS">
-		<area shape="rect" coords="0,0,100,125" alt="top-left" title="top-left" href="" target="_blank">
-		<area shape="rect" coords="140,0,240,125" alt="top-right" title="top-right" href="" target="_blank">
-		<area shape="rect" coords="0,165,100,290" alt="bottom-left" title="bottom-left" href="" target="_blank">
-		<area shape="rect" coords="140,165,240,290" alt="bottom-right" title="bottom-right" href="" target="_blank">
-		<area shape="circle" coords="120,145,20" alt="center" title="center" href="" target="_blank">
+		<area shape="rect" coords="0,0,100,125" alt="top-left" title="top-left" href="top_left.html" target="_blank">
+		<area shape="rect" coords="140,0,240,125" alt="top-right" title="top-right" href="top_right.html" target="_blank">
+		<area shape="rect" coords="0,165,100,290" alt="bottom-left" title="bottom-left" href="bottom_left.html" target="_blank">
+		<area shape="rect" coords="140,165,240,290" alt="bottom-right" title="bottom-right" href="bottom_right.html" target="_blank">
+		<area shape="circle" coords="120,145,20" alt="center" title="center" href="center.html" target="_blank">
+	<!--<area shape="circle" coords="120,145,20" alt="center" title="center" href="center.html" target="_blank" onMouseOver="let x = alert('center'); x;">
+		javascript는 그 특성상 명령을 정의해야 한다면 그 정의가 먼저 등장하고 나중에 그것을 불러오는 순서만이 가능하다. 그리고 alert 명령 처럼 즉각적으로 반응이 일어나는 기술의 경우에는 사전에 html script tag를 사용해 정의한 후 사용하는 것도 불가능하다. -->
 		</map>
+	</div>
+	<div class="CROSS_TO_SPACE">
+		<div class="TOP">
+			<div class="LEFT">
+				<img src="images_jin_childish/white.jpg" height="145px" width="145px" alt="top-left" id="topleft" 
+					 onMouseOver="this.src = 'images_jin_childish/26-4-01.jpg'"
+					 onMouseOut="this.src='images_jin_childish/white.jpg'">
+			</div>
+			<div class="RIGHT">
+				<img src="images_jin_childish/white.jpg" height="145px" width="145px" alt="top-left" id="topright" 
+					 onMouseOver="this.src = 'images_jin_childish/26-4-04.jpg'"
+					 onMouseOut="this.src='images_jin_childish/white.jpg'">
+			</div>
+		</div>
+		<div class="BOTTOM">
+			<div class="LEFT">
+				<img src="images_jin_childish/white.jpg" height="145px" width="145px" alt="top-left" id="bottomleft" 
+					 onMouseOver="this.src = 'images_jin_childish/26-4-02.jpg'"
+					 onMouseOut="this.src='images_jin_childish/white.jpg'">
+			</div>
+			<div class="RIGHT">
+				<img src="images_jin_childish/white.jpg" height="145px" width="145px" alt="top-left" id="bottomright" 
+					 onMouseOver="this.src = 'images_jin_childish/26-4-03.jpg'"
+					 onMouseOut="this.src='images_jin_childish/white.jpg'">
+			</div>
+		</div>
 	</div>
 	</div>
 <article>
 	
-	<p>
+	<p style="text-decoration-line: line-through">
 		ㅆㅂ 전역내놔
 		<!--<input type="text" id="visitorsname">
 			<input type="button" value="visitor's name" onClick="
@@ -113,6 +142,9 @@
 													 
 				else {visitors.push.(document.getElementById(visitorsname))}
 		">-->
+	</p>
+	<p>
+		secure the OPSEC
 	</p>
 	<!--
 	<script>
